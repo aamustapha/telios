@@ -35,15 +35,17 @@
         </div>
       </div>
     </Banner>
+    <About></About>
   </div>
 </template>
 
 <script>
 import Banner from "~/components/Banner"
 import TInput from "~/components/TInput"
+import About from "~/components/About"
 
 export default {
-  components: { TInput, Banner }
+  components: { About, TInput, Banner }
 }
 </script>
 
