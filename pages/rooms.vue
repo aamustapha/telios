@@ -3,13 +3,15 @@
     <Banner>
       <div class=" pb-16 relative">
         <div class="max-w-screen-sm">
-          <h2 class="text-6xl font-extrabold pr-3 ">Rooms</h2>
+          <h2 class="text-6xl font-extrabold pr-3 ">
+            Rooms
+          </h2>
           <p>Home | Rooms</p>
         </div>
       </div>
     </Banner>
-    <Rooms/>
-    <Reservation/>
+    <Rooms />
+    <Reservation />
   </div>
 </template>
 
