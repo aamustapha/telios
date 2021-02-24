@@ -8,32 +8,17 @@
         </div>
       </div>
     </Banner>
-    <Rooms />
-    <Reservation />
-
-    <About></About>
-    <Services/>
-    <Testimonial/>
-    <Restaurant/>
-    <Blog/>
-    <Photos/>
-    <Footer/>
+    <Rooms/>
+    <Reservation/>
   </div>
 </template>
 
 <script>
 import Banner from "~/components/Banner"
-import About from "~/components/About"
-import Services from "~/components/services/index"
-import Testimonial from "~/components/testimonials/index"
-import Restaurant from "~/components/restaurant/index"
-import Blog from "~/components/blog/index"
-import Photos from "~/components/Photos"
-import Footer from "~/components/Footer"
 import Rooms from "~/components/rooms/index"
 import Reservation from "~/components/Reservation"
 
 export default {
-  components: { Reservation, Rooms, Footer, Photos, Blog, Restaurant, Testimonial, Services, About, Banner }
+  components: { Reservation, Rooms, Banner }
 }
 </script>
