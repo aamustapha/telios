@@ -38,6 +38,7 @@
     <About></About>
     <Services />
     <Testimonial />
+    <Restaurant />
   </div>
 </template>
 
@@ -47,9 +48,10 @@ import TInput from "~/components/TInput"
 import About from "~/components/About"
 import Services from "~/components/services/index"
 import Testimonial from "~/components/testimonials/index"
+import Restaurant from "~/components/restaurant/index"
 
 export default {
-  components: { Testimonial, Services, About, TInput, Banner }
+  components: { Restaurant, Testimonial, Services, About, TInput, Banner }
 }
 </script>
 
