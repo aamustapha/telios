@@ -41,6 +41,7 @@
     <Restaurant />
     <Blog />
     <Photos />
+    <Footer />
   </div>
 </template>
 
@@ -53,9 +54,10 @@ import Testimonial from "~/components/testimonials/index"
 import Restaurant from "~/components/restaurant/index"
 import Blog from "~/components/blog/index"
 import Photos from "~/components/Photos"
+import Footer from "~/components/Footer"
 
 export default {
-  components: { Photos, Blog, Restaurant, Testimonial, Services, About, TInput, Banner }
+  components: { Footer, Photos, Blog, Restaurant, Testimonial, Services, About, TInput, Banner }
 }
 </script>
 
