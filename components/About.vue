@@ -1,5 +1,5 @@
 <template>
-  <div class="container grid grid-cols-2 gap-4 mt-64 mb-24 mx-auto">
+  <div class="container grid grid-cols-2 gap-4 my-24 mx-auto" >
     <div class="pr-32 py-12">
       <h5 class="text-blue-400 uppercase font-bold">About us</h5>
       <h2 class="font-black text-5xl">Trust and quality are our atuus</h2>
