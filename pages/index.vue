@@ -16,7 +16,7 @@
         <div class="py-8 absolute container mt-24 text-black">
           <div class="flex justify-end">
             <button>
-              <img src="images/arrow-right (1).svg" class="px-5 py-4 transform rotate-180 bg-white" />
+              <img src="images/arrow-right (1).svg" class="px-5 py-4 transform rotate-180 bg-white"/>
             </button>
             <button>
               <img src="images/arrow-right (1).svg" class="px-5 py-4 bg-blue-800"/>
@@ -29,19 +29,19 @@
               <TInput type="text" label="Rooms" placeholder="rooms"/>
             </div>
             <button class="bg-blue-800 h-12 w-12 mb-4">
-              <img src="images/send.svg" class="d-block mx-auto" />
+              <img src="images/send.svg" class="d-block mx-auto"/>
             </button>
           </div>
         </div>
       </div>
     </Banner>
     <About></About>
-    <Services />
-    <Testimonial />
-    <Restaurant />
-    <Blog />
-    <Photos />
-    <Footer />
+    <Services/>
+    <Testimonial/>
+    <Restaurant/>
+    <Blog/>
+    <Photos/>
+    <Footer/>
   </div>
 </template>
 
@@ -60,9 +60,3 @@ export default {
   components: { Footer, Photos, Blog, Restaurant, Testimonial, Services, About, TInput, Banner }
 }
 </script>
-
-<style>
-* {
-  font-family: 'Poppins', sans-serif;
-}
-</style>
