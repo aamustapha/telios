@@ -37,6 +37,7 @@
     </Banner>
     <About></About>
     <Services />
+    <Testimonial />
   </div>
 </template>
 
@@ -45,9 +46,10 @@ import Banner from "~/components/Banner"
 import TInput from "~/components/TInput"
 import About from "~/components/About"
 import Services from "~/components/services/index"
+import Testimonial from "~/components/testimonials/index"
 
 export default {
-  components: { Services, About, TInput, Banner }
+  components: { Testimonial, Services, About, TInput, Banner }
 }
 </script>
 
