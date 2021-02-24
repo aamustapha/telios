@@ -5,9 +5,13 @@
     </h4>
     <nav class="font-sm">
       <template v-for="(nav, index) in navs">
-        <router-link :key="index" :to="nav.link" class="mx-3 uppercase font-semibold " active-class="text-blue-600">
+        <router-link
+            :key="index"
+            :to="nav.link"
+            class="mx-3 uppercase font-semibold "
+            exact-active-class="text-blue-600">
           {{ nav.text }}
-          <img v-if="nav.children" src="images/chevron-down.svg" class="flex w-3 ml-1 h-2 align-middle inline-flex" />
+          <img v-if="nav.children" src="images/chevron-down.svg" class="flex w-3 ml-1 h-2 align-middle inline-flex"/>
         </router-link>
       </template>
     </nav>
@@ -19,7 +23,7 @@ import navs from "./_nav"
 
 export default {
   name: "Navigation",
-  data() {
+  data () {
     return {
       navs
     }
