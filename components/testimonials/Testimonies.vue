@@ -6,7 +6,7 @@
     <ul class="flex mt-8 space-x-1">
       <template v-for="(testimony, index) in testimonies">
         <li
-            class="inline-block w-3 h-3 rounded-full bg-gray"
+            class="inline-block w-3 h-3 rounded-full"
             :key="index"
             v-bind="isActive(index)"
             @click="select(index)"></li>
@@ -60,7 +60,7 @@ export default {
             class: "bg-blue"
           }
         }
-        return {}
+        return { class: "bg-gray" }
       }
     }
   },
