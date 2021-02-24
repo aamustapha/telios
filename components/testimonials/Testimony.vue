@@ -9,7 +9,7 @@
         <small class="text-gray-800">{{ role }}</small>
       </div>
     </div>
-    <div>
+    <div class="mt-4">
       <p>{{ testimony }}</p>
     </div>
   </div>
