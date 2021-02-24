@@ -3,7 +3,7 @@
     <div class="container mx-auto pr-24">
       <div>
         <div class="max-w-lg py-24">
-          <h5 class="text-blue-400 uppercase">
+          <h5 class="text-blue-400 uppercase font-bold">
             Testimonials
           </h5>
           <h2 class="font-black text-4xl mb-4">We trust our customers and they trust us too</h2>

@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto pb-24 pt-12">
-    <h5 class="text-blue-400 uppercase">blog</h5>
+    <h5 class="text-blue-400 uppercase font-bold">blog</h5>
     <h2 class="font-black text-4xl mt-2 mb-4 max-w-lg">Read our newest blog post right away</h2>
 
     <div class="grid grid-cols-3 gap-8">

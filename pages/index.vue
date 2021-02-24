@@ -3,7 +3,7 @@
     <Banner>
       <div class=" pb-48 relative">
         <div class="max-w-screen-sm">
-          <h2 class="text-6xl font-black ">The best hotel you will ever need</h2>
+          <h2 class="text-6xl font-extrabold pr-3 ">The best hotel you will ever need</h2>
           <summary>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore

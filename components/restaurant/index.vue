@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto py-24">
-    <h5 class="text-blue-400 uppercase">restaurant</h5>
+    <h5 class="text-blue-400 uppercase font-bold">restaurant</h5>
     <h2 class="font-black text-4xl mt-2 mb-4 max-w-lg">Explore our menu and eat what you want</h2>
     <div class="grid grid-cols-2 gap-4">
       <template v-for="(food, index) in menu">

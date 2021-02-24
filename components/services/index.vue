@@ -2,7 +2,7 @@
   <div style="background-image: url('images/chris-lee-70l1tDAI6rM-unsplash.png')" class="bg-cover py-24 relative">
     <div class="absolute w-full h-full bg-black bg-opacity-50 z-0" style="top: 0;"><!-- overlay --></div>
     <div class="relative container mx-auto z-10 ">
-      <h5 class="text-blue-400">About us</h5>
+      <h5 class="text-blue-400 uppercase font-bold">About us</h5>
       <h2 class="font-black text-5xl mt-2 mb-4 max-w-lg text-white">We bring you the finest details</h2>
       <div class="grid grid-cols-4 gap-4">
         <template v-for="(service, index) in services">
