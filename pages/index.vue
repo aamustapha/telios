@@ -19,16 +19,16 @@
               <img src="images/arrow-right (1).svg" class="px-5 py-4 transform rotate-180 bg-white"/>
             </button>
             <button>
-              <img src="images/arrow-right (1).svg" class="px-5 py-4 bg-blue-800"/>
+              <img src="images/arrow-right (1).svg" class="px-5 py-4 bg-blue"/>
             </button>
           </div>
           <div class="bg-white py-8 px-12 shadow-lg flex justify-between items-end">
             <div class="w-11/12 grid grid-cols-3 gap-4">
-              <TInput type="text" label="Check-in date" placeholder="check in date" input-class="bg-gray-200"/>
-              <TInput type="text" label="Checkout date" placeholder="check out date"  input-class="bg-gray-200"/>
-              <TInput type="text" label="Rooms" placeholder="rooms"  input-class="bg-gray-200"/>
+              <TInput type="text" label="Check-in date" placeholder="check in date" input-class="bg-gray-semilight border-gray text-gray-semidark"/>
+              <TInput type="text" label="Checkout date" placeholder="check out date"  input-class="bg-gray-semilight border-gray text-gray-semidark"/>
+              <TInput type="text" label="Rooms" placeholder="rooms"  input-class="bg-gray-light border-gray text-gray-semidark"/>
             </div>
-            <button class="bg-blue-800 h-12 w-12 mb-4">
+            <button class="bg-blue h-12 w-12 mb-4">
               <img src="images/send.svg" class="d-block mx-auto"/>
             </button>
           </div>

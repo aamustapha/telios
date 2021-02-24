@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container mx-auto">
-      <h5 class="text-blue-400 uppercase font-bold">photos</h5>
+      <h5 class="text-blue uppercase font-bold">photos</h5>
       <h2 class="font-black text-4xl mt-2 mb-4 max-w-lg">See our latest photos from restaurant and hotel</h2>
     </div>
     <div class="grid grid-cols-4 h-64">

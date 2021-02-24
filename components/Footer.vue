@@ -5,7 +5,7 @@
         <h4 class="text-2xl font-bold mb-2">
           Zetta Hotels
         </h4>
-        <small class="text-gray-400 text-justify">
+        <small class="text-gray-dark text-justify">
           Our hotel is an image of quality and profesionalism combined with hard work and precision. You can
           expect only the best services from our staff.
         </small>
@@ -26,35 +26,36 @@
         <h4 class="text-lg font-bold mb-4">
           Useful links
         </h4>
-        <a href="#" class="block my-2 text-blue-800">Blog</a>
-        <a href="#" class="block my-2 text-blue-800">Rooms</a>
-        <a href="#" class="block my-2 text-blue-800">Gift card</a>
-        <a href="#" class="block my-2 text-blue-800">Testimonials</a>
+        <a href="#" class="block my-2 text-blue">Blog</a>
+        <a href="#" class="block my-2 text-blue">Rooms</a>
+        <a href="#" class="block my-2 text-blue">Gift card</a>
+        <a href="#" class="block my-2 text-blue">Testimonials</a>
       </div>
       <div>
         <h4 class="text-lg font-bold mb-4">
           Privacy
         </h4>
-        <a href="#" class="block my-2 text-blue-800">Career</a>
-        <a href="#" class="block my-2 text-blue-800">About us</a>
-        <a href="#" class="block my-2 text-blue-800">Contact us</a>
-        <a href="#" class="block my-2 text-blue-800">Services</a>
+        <a href="#" class="block my-2 text-blue">Career</a>
+        <a href="#" class="block my-2 text-blue">About us</a>
+        <a href="#" class="block my-2 text-blue">Contact us</a>
+        <a href="#" class="block my-2 text-blue">Services</a>
       </div>
       <div class="col-span-2">
         <h4 class="text-lg font-bold mb-4">
           Contact info
         </h4>
         <ul class="space-y-3">
-          <li> <img src="images/mail.svg" class="inline mr-2"/> example@yahoo.com</li>
-          <li> <img src="images/phone.svg" class="inline mr-2"/> +0 320 422 4254</li>
-          <li> <img src="images/map-pin.svg" class="inline mr-2"/> Main Str Chicago Ilinois</li>
+          <li><img src="images/mail.svg" class="inline mr-2"/> example@yahoo.com</li>
+          <li><img src="images/phone.svg" class="inline mr-2"/> +0 320 422 4254</li>
+          <li><img src="images/map-pin.svg" class="inline mr-2"/> Main Str Chicago Ilinois</li>
         </ul>
       </div>
     </div>
-      <div class="container mx-auto mt-12 text-white flex justify-between ">
-        <p>Copyright ©2020 All rights reserved | This template is made with love by <a href="#" class="text-blue-600">Marian</a> </p>
-        <a href="#" class="text-blue-600">www.portfolioname.com</a>
-      </div>
+    <div class="container mx-auto mt-12 text-white flex justify-between text-gray-dark ">
+      <p>Copyright ©2020 All rights reserved | This template is made with love by
+        <a href="#" class="text-blue">Marian</a></p>
+      <a href="#" class="text-blue">www.portfolioname.com</a>
+    </div>
 
   </div>
 </template>

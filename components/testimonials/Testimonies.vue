@@ -6,7 +6,7 @@
     <ul class="flex mt-8 space-x-1">
       <template v-for="(testimony, index) in testimonies">
         <li
-            class="inline-block w-3 h-3 rounded-full bg-gray-400"
+            class="inline-block w-3 h-3 rounded-full bg-gray"
             :key="index"
             v-bind="isActive(index)"
             @click="select(index)"></li>
@@ -57,7 +57,7 @@ export default {
       return (index) => {
         if (index === Math.abs(this.value % this.testimonies.length)) {
           return {
-            class: "bg-blue-800"
+            class: "bg-blue"
           }
         }
         return {}

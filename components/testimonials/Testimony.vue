@@ -6,7 +6,7 @@
       </div>
       <div class="pl-5">
         <h4 class="font-bold text-md">{{ name }}</h4>
-        <small class="text-gray-800">{{ role }}</small>
+        <small class="text-gray-dark">{{ role }}</small>
       </div>
     </div>
     <div class="mt-4">

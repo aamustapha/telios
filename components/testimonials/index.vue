@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-gray-200 relative flex">
+  <div class="bg-gray-light relative flex">
     <div class="container mx-auto pr-24">
       <div>
         <div class="max-w-lg py-24">
-          <h5 class="text-blue-400 uppercase font-bold">
+          <h5 class="text-blue uppercase font-bold">
             Testimonials
           </h5>
           <h2 class="font-black text-4xl mb-4">We trust our customers and they trust us too</h2>
@@ -19,7 +19,7 @@
         <img src="images/arrow-right (1).svg" class="px-5 py-4 bg-white" @click="++testimony"/>
       </button>
       <button class="absolute bottom-0" style="left: -56px" @click="--testimony">
-        <img src="images/arrow-right (1).svg" class="px-5 transform rotate-180 py-4 bg-blue-800"/>
+        <img src="images/arrow-right (1).svg" class="px-5 transform rotate-180 py-4 bg-blue"/>
       </button>
     </div>
   </div>

@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-gray-200">
+  <div class="bg-gray-light">
     <img :src="pic" class="h-64 w-full object-cover"/>
     <div class="px-12 py-6 text-center">
-      <span class="text-blue-600 font-bold text-sm uppercase">{{ category }}</span>
+      <span class="text-blue font-bold text-sm uppercase">{{ category }}</span>
       <p class="font-bold">{{ title }}</p>
-      <small class="py-2 text-gray-700 "> {{ summary }}</small>
+      <small class="py-2 text-gray-dark "> {{ summary }}</small>
     </div>
   </div>
 </template>

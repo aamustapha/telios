@@ -1,11 +1,11 @@
 <template>
   <div class="my-3">
-    <label :for="inputId" class="text-blue-800">{{ label }}</label>
+    <label :for="inputId" class="text-blue">{{ label }}</label>
     <input
         :id="inputId"
         v-model="val"
         v-bind="{...$attrs, class: inputClass}"
-        class=" block py-3 px-5 block w-full focus:rounded-none border-2 focus:border-gray-600"/>
+        class=" block py-3 px-5 block w-full focus:rounded-none border-2 focus:border-gray"/>
   </div>
 </template>
 

@@ -9,9 +9,9 @@
       </div>
     </Banner>
     <div class="container mx-auto my-12">
-      You already know what this means. Go back to <router-link to="/" class="text-blue-700">Home</router-link>,
-      <router-link to="/rooms" class="text-blue-700">Rooms</router-link> or
-      <router-link to="/about-us" class="text-blue-700">About</router-link>.
+      You already know what this means. Go back to <router-link to="/" class="text-blue">Home</router-link>,
+      <router-link to="/rooms" class="text-blue">Rooms</router-link> or
+      <router-link to="/about-us" class="text-blue">About</router-link>.
     </div>
   </div>
 </template>
