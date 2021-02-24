@@ -51,6 +51,11 @@
         </ul>
       </div>
     </div>
+      <div class="container mx-auto mt-12 text-white flex justify-between ">
+        <p>Copyright ©2020 All rights reserved | This template is made with love by <a href="#" class="text-blue-600">Marian</a> </p>
+        <a href="#" class="text-blue-600">www.portfolioname.com</a>
+      </div>
+
   </div>
 </template>
 
