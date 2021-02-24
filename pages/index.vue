@@ -39,6 +39,7 @@
     <Services />
     <Testimonial />
     <Restaurant />
+    <Blog />
   </div>
 </template>
 
@@ -49,9 +50,10 @@ import About from "~/components/About"
 import Services from "~/components/services/index"
 import Testimonial from "~/components/testimonials/index"
 import Restaurant from "~/components/restaurant/index"
+import Blog from "~/components/blog/index"
 
 export default {
-  components: { Restaurant, Testimonial, Services, About, TInput, Banner }
+  components: { Blog, Restaurant, Testimonial, Services, About, TInput, Banner }
 }
 </script>
 
