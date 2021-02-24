@@ -12,7 +12,7 @@ export default {
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
-      {rel: 'stylesheet', type: 'text/css', href: "https://fonts.googleapis.com/css2?family=Poppins&display=swap"}
+      {rel: 'stylesheet', type: 'text/css', href: "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"}
     ]
   },
 
