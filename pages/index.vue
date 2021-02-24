@@ -24,9 +24,9 @@
           </div>
           <div class="bg-white py-8 px-12 shadow-lg flex justify-between items-end">
             <div class="w-11/12 grid grid-cols-3 gap-4">
-              <TInput type="text" label="Check-in date" placeholder="check in date"/>
-              <TInput type="text" label="Checkout date" placeholder="check out date"/>
-              <TInput type="text" label="Rooms" placeholder="rooms"/>
+              <TInput type="text" label="Check-in date" placeholder="check in date" input-class="bg-gray-200"/>
+              <TInput type="text" label="Checkout date" placeholder="check out date"  input-class="bg-gray-200"/>
+              <TInput type="text" label="Rooms" placeholder="rooms"  input-class="bg-gray-200"/>
             </div>
             <button class="bg-blue-800 h-12 w-12 mb-4">
               <img src="images/send.svg" class="d-block mx-auto"/>
