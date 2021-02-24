@@ -1,15 +1,16 @@
 <template>
   <div class="testimony">
     <template v-for="(testimony, index) in testimonies">
-      <Testimony v-bind="testimony" v-if="index === Math.abs(value % testimonies.length)" :key="index"/>
+      <Testimony v-if="index === Math.abs(value % testimonies.length)" v-bind="testimony" :key="index" />
     </template>
     <ul class="flex mt-8 space-x-1">
       <template v-for="(testimony, index) in testimonies">
         <li
-            class="inline-block w-3 h-3 rounded-full"
-            :key="index"
-            v-bind="isActive(index)"
-            @click="select(index)"></li>
+          :key="index"
+          class="inline-block w-3 h-3 rounded-full"
+          v-bind="isActive(index)"
+          @click="select(index)"
+        />
       </template>
     </ul>
   </div>

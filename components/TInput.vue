@@ -2,10 +2,11 @@
   <div class="my-3">
     <label :for="inputId" class="text-blue">{{ label }}</label>
     <input
-        :id="inputId"
-        v-model="val"
-        v-bind="{...$attrs, class: inputClass}"
-        class=" block py-3 px-5 block w-full focus:rounded-none border-2 focus:border-gray"/>
+      :id="inputId"
+      v-model="val"
+      v-bind="{...$attrs, class: inputClass}"
+      class=" block py-3 px-5 block w-full focus:rounded-none border-2 focus:border-gray"
+    >
   </div>
 </template>
 
@@ -13,10 +14,10 @@
 export default {
   name: "TInput",
   props: {
-    value: [String, Number],
-    id: String,
+    value: { type: [String, Number], required: true },
+    id: { type: String, required: true },
     label: { type: String, required: true },
-    inputClass: {}
+    inputClass: { type: String, required: true }
   },
   computed: {
     inputId () {

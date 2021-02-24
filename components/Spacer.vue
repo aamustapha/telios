@@ -1,5 +1,7 @@
 <template>
-  <div class="block" v-bind="$attrs">&nbsp;</div>
+  <div class="block" v-bind="$attrs">
+&nbsp;
+  </div>
 </template>
 
 <script>

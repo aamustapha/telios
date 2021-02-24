@@ -3,7 +3,9 @@
     <Banner>
       <div class=" pb-48 relative">
         <div class="max-w-screen-sm">
-          <h2 class="text-6xl font-extrabold pr-3 ">The best hotel you will ever need</h2>
+          <h2 class="text-6xl font-extrabold pr-3 ">
+            The best hotel you will ever need
+          </h2>
           <summary>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
@@ -16,31 +18,31 @@
         <div class="py-8 absolute container mt-24 text-black">
           <div class="flex justify-end">
             <button>
-              <img src="images/arrow-right (1).svg" class="px-5 py-4 transform rotate-180 bg-white"/>
+              <img src="images/arrow-right (1).svg" class="px-5 py-4 transform rotate-180 bg-white">
             </button>
             <button>
-              <img src="images/arrow-right (1).svg" class="px-5 py-4 bg-blue"/>
+              <img src="images/arrow-right (1).svg" class="px-5 py-4 bg-blue">
             </button>
           </div>
           <div class="bg-white py-8 px-12 shadow-lg flex justify-between items-end">
             <div class="w-11/12 grid grid-cols-3 gap-4">
-              <TInput type="text" label="Check-in date" placeholder="check in date" input-class="bg-gray-semilight border-gray text-gray-semidark"/>
-              <TInput type="text" label="Checkout date" placeholder="check out date"  input-class="bg-gray-semilight border-gray text-gray-semidark"/>
-              <TInput type="text" label="Rooms" placeholder="rooms"  input-class="bg-gray-light border-gray text-gray-semidark"/>
+              <TInput type="text" label="Check-in date" placeholder="check in date" input-class="bg-gray-semilight border-gray text-gray-semidark" />
+              <TInput type="text" label="Checkout date" placeholder="check out date" input-class="bg-gray-semilight border-gray text-gray-semidark" />
+              <TInput type="text" label="Rooms" placeholder="rooms" input-class="bg-gray-light border-gray text-gray-semidark" />
             </div>
             <button class="bg-blue h-12 w-12 mb-4">
-              <img src="images/send.svg" class="d-block mx-auto"/>
+              <img src="images/send.svg" class="d-block mx-auto">
             </button>
           </div>
         </div>
       </div>
     </Banner>
     <TSpacer class="mb-30" />
-    <About></About>
-    <Services/>
-    <Testimonial/>
-    <Restaurant/>
-    <Blog/>
+    <About />
+    <Services />
+    <Testimonial />
+    <Restaurant />
+    <Blog />
   </div>
 </template>
 

@@ -1,14 +1,17 @@
 <template>
   <div class="container mx-auto pb-12">
-    <h5 class="text-blue uppercase font-bold">about us</h5>
-    <h2 class="font-black text-4xl mt-2 mb-4 max-w-sm">Trust and quality are our atuus</h2>
+    <h5 class="text-blue uppercase font-bold">
+      about us
+    </h5>
+    <h2 class="font-black text-4xl mt-2 mb-4 max-w-sm">
+      Trust and quality are our atuus
+    </h2>
     <div class="grid grid-cols-2 gap-4">
       <template v-for="(food, index) in menu">
         <SingleRoom :key="index" v-bind="food" />
       </template>
     </div>
   </div>
-
 </template>
 
 <script>

@@ -11,17 +11,17 @@
         </small>
         <div class="flex space-x-2 mt-4">
           <a href="#">
-            <img src="images/001-facebook.svg" class="h-8 w-8"/>
+            <img src="images/001-facebook.svg" class="h-8 w-8">
           </a>
           <a href="#">
-            <img src="images/002-twitter.svg" class="h-8 w-8"/>
+            <img src="images/002-twitter.svg" class="h-8 w-8">
           </a>
           <a href="#">
-            <img src="images/004-google-plus.svg" class="h-8 w-8"/>
+            <img src="images/004-google-plus.svg" class="h-8 w-8">
           </a>
         </div>
       </div>
-      <div></div>
+      <div />
       <div>
         <h4 class="text-lg font-bold mb-4">
           Useful links
@@ -45,18 +45,19 @@
           Contact info
         </h4>
         <ul class="space-y-3">
-          <li><img src="images/mail.svg" class="inline mr-2"/> example@yahoo.com</li>
-          <li><img src="images/phone.svg" class="inline mr-2"/> +0 320 422 4254</li>
-          <li><img src="images/map-pin.svg" class="inline mr-2"/> Main Str Chicago Ilinois</li>
+          <li><img src="images/mail.svg" class="inline mr-2"> example@yahoo.com</li>
+          <li><img src="images/phone.svg" class="inline mr-2"> +0 320 422 4254</li>
+          <li><img src="images/map-pin.svg" class="inline mr-2"> Main Str Chicago Ilinois</li>
         </ul>
       </div>
     </div>
     <div class="container mx-auto mt-12 text-white flex justify-between text-gray-dark ">
-      <p>Copyright ©2020 All rights reserved | This template is made with love by
-        <a href="#" class="text-blue">Marian</a></p>
+      <p>
+        Copyright ©2020 All rights reserved | This template is made with love by
+        <a href="#" class="text-blue">Marian</a>
+      </p>
       <a href="#" class="text-blue">www.portfolioname.com</a>
     </div>
-
   </div>
 </template>
 
