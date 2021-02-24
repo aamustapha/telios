@@ -9,6 +9,7 @@
       </div>
     </Banner>
     <Rooms />
+    <Reservation />
 
     <About></About>
     <Services/>
@@ -30,8 +31,9 @@ import Blog from "~/components/blog/index"
 import Photos from "~/components/Photos"
 import Footer from "~/components/Footer"
 import Rooms from "~/components/rooms/index"
+import Reservation from "~/components/Reservation"
 
 export default {
-  components: { Rooms, Footer, Photos, Blog, Restaurant, Testimonial, Services, About, Banner }
+  components: { Reservation, Rooms, Footer, Photos, Blog, Restaurant, Testimonial, Services, About, Banner }
 }
 </script>
