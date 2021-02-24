@@ -11,6 +11,7 @@
     <About />
     <Services />
     <Testimonials />
+    <TSpacer class="my-12" />
   </div>
 </template>
 
@@ -19,8 +20,9 @@ import Banner from "~/components/Banner"
 import About from "~/components/About"
 import Services from "~/components/services/index"
 import Testimonials from "~/components/testimonials/index"
+import TSpacer from "~/components/Spacer"
 export default {
-  components: { Testimonials, Services, About, Banner }
+  components: { TSpacer, Testimonials, Services, About, Banner }
 }
 </script>
 

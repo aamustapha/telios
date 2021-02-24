@@ -35,6 +35,7 @@
         </div>
       </div>
     </Banner>
+    <TSpacer class="mb-30" />
     <About></About>
     <Services/>
     <Testimonial/>
@@ -51,8 +52,9 @@ import Services from "~/components/services/index"
 import Testimonial from "~/components/testimonials/index"
 import Restaurant from "~/components/restaurant/index"
 import Blog from "~/components/blog/index"
+import TSpacer from "~/components/Spacer"
 
 export default {
-  components: { Blog, Restaurant, Testimonial, Services, About, TInput, Banner }
+  components: { TSpacer, Blog, Restaurant, Testimonial, Services, About, TInput, Banner }
 }
 </script>
