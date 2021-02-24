@@ -13,7 +13,7 @@
     </div>
 
     <div
-        class="w-2/5 max-w-md h-full bg-cover absolute right-0 top-0"
+        class="w-1/3 lg:w-2/5 max-w-md h-full bg-cover absolute right-0 top-0"
         style="background-image: url('images/rhema-kallianpur-jbJ-_hw2yag-unsplash-2@2x.png')">
       <button class="absolute bottom-0 left-0">
         <img src="images/arrow-right (1).svg" class="px-5 py-4 bg-white" @click="++testimony"/>
