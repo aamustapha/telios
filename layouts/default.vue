@@ -19,4 +19,8 @@ export default {
 * {
   font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  @apply container px-8
+}
 </style>
