@@ -1,8 +1,8 @@
 <template>
   <div>
     <Banner>
-      <div class=" pb-48 relative">
-        <div class="w-">
+      <div class="pb-48 relative">
+        <div class="  ">
           <h2 class="text-6xl font-extrabold ">
             The best hotel <br/> you will ever need
           </h2>

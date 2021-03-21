@@ -21,6 +21,12 @@ export default {
 }
 
 .container-fluid {
-  @apply px-8
+  @apply px-2 mx-auto
+}
+
+@screen lg {
+  .container-fluid {
+    @apply px-8
+  }
 }
 </style>
