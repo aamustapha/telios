@@ -15,7 +15,10 @@ export default {
       { rel: "stylesheet", type: "text/css", href: "https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900" }
     ]
   },
-
+  loading: {
+    color: "blue",
+    height: "5px"
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 

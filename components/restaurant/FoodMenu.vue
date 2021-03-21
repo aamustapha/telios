@@ -1,12 +1,12 @@
 <template>
   <div class="flex bg-gray-light relative">
-    <img :src="pic" class="h-full w-1/4 object-cover" :alt="name">
-    <div class="py-8 pl-4 pr-16">
+    <img :src="pic" class="h-full object-cover" style="width: 168px" :alt="name">
+    <div class="py-8 pl-4 pr-32">
       <span class="text-blue uppercase font-semibold">{{ category }}</span>
       <p class="font-bold text-large">
         {{ name }}
       </p>
-      <p class="py-2 text-base text-gray-dark lg:w-3/4">
+      <p class="py-2 text-base text-gray-dark">
         {{ description }}
       </p>
       <a href="#" class="absolute bottom-0 right-0">

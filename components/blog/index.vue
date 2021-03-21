@@ -1,5 +1,5 @@
 <template>
-  <div class="container container-fluid pb-24 pt-12">
+  <div class="container container-fluid pb-24 pt-4">
     <h5 class="text-blue uppercase font-bold">
       blog
     </h5>
@@ -7,7 +7,7 @@
       Read our newest blog <br>post right away
     </h2>
 
-    <div class="grid grid-cols-3 gap-3">
+    <div class="grid grid-cols-3 gap-6">
       <SingleArticle v-for="(article, index) in articles" :key="index" v-bind="article" />
     </div>
   </div>
