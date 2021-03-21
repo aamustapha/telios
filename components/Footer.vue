@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black py-24 ">
     <div class="container container-fluid mx-auto flex justify-between gap-4 text-white">
-      <div style="width: 260px;" class="mr-24">
+      <div style="width: 260px;" class="mr-32">
         <h4 class="text-24px font-bold mb-4">
           Zetta Hotels
         </h4>
@@ -39,7 +39,7 @@
         <a href="#" class="block my-2 text-blue">Contact us</a>
         <a href="#" class="block my-2 text-blue">Services</a>
       </div>
-      <div style="width: 198px">
+      <div style="width: 198px" class="mr-16">
         <h4 class="text-verylarge font-semibold mb-4">
           Contact info
         </h4>

@@ -13,14 +13,14 @@
       </h2>
       <div class="flex items-center">
         <div class="z-10 h-16">
-          <a href="#" class="absolute left-0" style="margin-left: -64px;">
+          <a href="#" class="absolute left-0" style="margin-left: -36px;">
             <img
               src="https://ik.imagekit.io/hooli/telios/arrow-right-blue_iylJmN7MU.svg"
               alt="arrow"
               class="p-6 bg-gray-dark transform rotate-180 opacity-50"
             >
           </a>
-          <a href="#" class="absolute right-0 mr-16" style="margin-right: -64px;">
+          <a href="#" class="absolute right-0 mr-16" style="margin-right: -36px;">
             <img src="https://ik.imagekit.io/hooli/telios/arrow-right-blue_iylJmN7MU.svg" alt="arrow" class="p-6 bg-white ">
           </a>
         </div>
