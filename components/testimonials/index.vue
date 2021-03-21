@@ -17,7 +17,7 @@
 
     <div
       class="w-2/5 h-full bg-cover absolute right-0 top-0"
-      style="background-image: url('images/rhema-kallianpur-jbJ-_hw2yag-unsplash-2@2x.png')"
+      style="background-image: url('https://ik.imagekit.io/hooli/telios/rhema-kallianpur-jbJ-_hw2yag-unsplash-2_2x_M50RMfc8Gf.png')"
     >
       <button class="absolute bottom-0 left-0">
         <img alt="img" src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="p-6 bg-white" @click="++testimony">

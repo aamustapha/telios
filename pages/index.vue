@@ -16,10 +16,10 @@
         <div class="py-8 absolute px-1 container mt-16 text-black">
           <div class="flex justify-end">
             <button>
-              <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="px-4 py-4 transform rotate-180 bg-white">
+              <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="px-4 py-4 transform rotate-180 bg-white" alt="arrow">
             </button>
             <button>
-              <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="px-4 py-4 bg-blue">
+              <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="px-4 py-4 bg-blue" alt="arrow">
             </button>
           </div>
           <div class="bg-white py-6 pb-12 px-24 shadow-xl flex justify-between items-end">
@@ -28,7 +28,7 @@
               <TInput type="text" label="Check Out Date" placeholder="check out date" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark" />
               <TInput type="text" label="Rooms" placeholder="rooms" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark" />
               <button class="bg-blue h-12 w-12 mb-4 flex-shrink-0">
-                <img src="https://ik.imagekit.io/hooli/telios/send_1v6H9jZIyghJ.svg" class="d-block mx-auto">
+                <img src="https://ik.imagekit.io/hooli/telios/send_1v6H9jZIyghJ.svg" class="d-block mx-auto" alt="send">
               </button>
             </div>
           </div>

@@ -23,25 +23,25 @@ export default {
     return {
       menu: [
         {
-          pic: "images/victoria-shes-UC0HZdUitWY-unsplash@2x.png",
+          pic: "https://ik.imagekit.io/hooli/telios/victoria-shes-UC0HZdUitWY-unsplash_2x_aFKZSMqYBi.png",
           category: "food",
           name: "Fresh fish and onions",
           description: "Fresh food directly from our restaurant ready coocked for you and you familly"
         },
         {
-          pic: "images/sheelah-brennan-UaeVmc51Ttw-unsplash@2x.png",
+          pic: "https://ik.imagekit.io/hooli/telios/sheelah-brennan-UaeVmc51Ttw-unsplash_2x_jm7-95jlKiUpx.png",
           category: "desert",
           name: "Chocolate cupcakes",
           description: "Fresh food directly from our restaurant ready coocked for you and you familly"
         },
         {
-          pic: "images/sheelah-brennan-UaeVmc51Ttw-unsplash@2x.png",
+          pic: "https://ik.imagekit.io/hooli/telios/sheelah-brennan-UaeVmc51Ttw-unsplash_2x_jm7-95jlKiUpx.png",
           category: "desert",
           name: "Chocolate cupcakes",
           description: "Fresh food directly from our restaurant ready coocked for you and you familly"
         },
         {
-          pic: "images/victoria-shes-UC0HZdUitWY-unsplash@2x.png",
+          pic: "https://ik.imagekit.io/hooli/telios/victoria-shes-UC0HZdUitWY-unsplash_2x_aFKZSMqYBi.png",
           category: "food",
           name: "Fresh fish and onions",
           description: "Fresh food directly from our restaurant ready coocked for you and you familly"
