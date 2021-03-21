@@ -9,7 +9,7 @@
         About us
       </h5>
       <h2 class="subheading text-white">
-        We bring you the finest details
+        We bring you the<br/>finest details
       </h2>
       <div class="flex items-center">
         <div class="z-10 h-16">
