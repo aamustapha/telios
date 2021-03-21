@@ -26,6 +26,9 @@ export default {
   max-width: 1140px;
 }
 
+.subheading {
+  @apply font-extrabold text-big mt-2 mb-4 leading-tight mb-12
+}
 @screen lg {
   .container-fluid {
     @apply px-8

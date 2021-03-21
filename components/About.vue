@@ -4,7 +4,7 @@
       <h5 class="text-blue uppercase font-bold">
         About us
       </h5>
-      <h2 class="font-extrabold text-big leading-tight">
+      <h2 class="subheading">
         Trust and quality are our atuus
       </h2>
       <p class="font-medium mt-3 leading-relaxed text-large">

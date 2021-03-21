@@ -4,7 +4,7 @@
       <h5 class="text-blue uppercase font-bold">
         photos
       </h5>
-      <h2 class="font-black text-big mt-2 mb-8">
+      <h2 class="subheading">
         See our latest photos <br> from restaurant and hotel
       </h2>
     </div>

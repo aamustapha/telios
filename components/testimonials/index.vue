@@ -6,7 +6,8 @@
           <h5 class="text-blue uppercase font-bold">
             Testimonials
           </h5>
-          <h2 class="font-black text-large mb-4 text-big">
+          <h2
+            class="subheading">
             We trust our customers and they trust us too
           </h2>
           <Testimonies v-model="testimony" />

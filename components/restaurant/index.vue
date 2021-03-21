@@ -3,7 +3,7 @@
     <h5 class="text-blue uppercase font-bold">
       restaurant
     </h5>
-    <h2 class="font-extrabold text-big mt-2 mb-10 max-w-xl">
+    <h2 class="subheading">
       Explore our menu <br> and eat what you want
     </h2>
     <div class="grid grid-cols-2 gap-4">

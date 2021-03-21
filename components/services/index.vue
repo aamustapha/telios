@@ -8,7 +8,7 @@
       <h5 class="text-blue uppercase font-bold">
         About us
       </h5>
-      <h2 class="font-extrabold text-big mb-6 leading-tight max-w-lg text-white">
+      <h2 class="subheading text-white">
         We bring you the finest details
       </h2>
       <div class="flex items-center">

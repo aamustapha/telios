@@ -2,7 +2,7 @@
   <div class="bg-gray-light my-12">
     <div class=" container mx-auto py-12 text-black">
       <div class="py-8 px-12 flex justify-between ">
-        <div class="grid grid-cols-4 gap-4 items-end">
+        <div class="grid grid-cols-4 gap-4 items-end text-medium">
           <TInput type="text" label="Check-in date" placeholder="check in date" input-class="bg-white border-gray" />
           <TInput type="text" label="Checkout date" placeholder="check out date" input-class="bg-white border-gray" />
           <TInput type="text" label="Rooms" placeholder="rooms" input-class="bg-white border-gray" />

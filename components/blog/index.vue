@@ -3,7 +3,7 @@
     <h5 class="text-blue uppercase font-bold">
       blog
     </h5>
-    <h2 class="font-black text-big mt-2 mb-4 max-w-xl">
+    <h2 class="subheading">
       Read our newest blog <br>post right away
     </h2>
 

@@ -3,7 +3,7 @@
     <Banner class="mb-12">
       <div class=" pb-16 relative">
         <div class="max-w-screen-sm">
-          <h2 class="text-6xl font-extrabold pr-3 ">
+          <h2 class="subheading">
             Page not found
           </h2>
           <p>Home | 404</p>
