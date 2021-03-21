@@ -1,5 +1,5 @@
 <template>
-  <div :class="`my-3 ${classes}`">
+  <div :class="`my-3 flex-grow-1`">
     <label :for="inputId" class="text-blue font-medium text-sm">{{ label }}</label>
     <input
       :id="inputId"
