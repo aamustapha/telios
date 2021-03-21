@@ -4,11 +4,11 @@
       <div class="pb-48 relative">
         <div class="pt-4">
           <h2 class="text-verybig font-black leading-loose mb-6 pt-16 ">
-            The best hotel <br/> you will ever need
+            The best hotel <br> you will ever need
           </h2>
           <p class="text-base">
-            Lorem ipsum dolor sit amet, consectetur <br/>
-            adipiscing elit, sed do eiusmod tempor incididunt <br/>
+            Lorem ipsum dolor sit amet, consectetur <br>
+            adipiscing elit, sed do eiusmod tempor incididunt <br>
             ut labore et dolore magna aliqua. Ut enim ad
           </p>
         </div>
