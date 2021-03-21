@@ -1,5 +1,5 @@
 <template>
-  <div class="my-3">
+  <div :class="`my-3 ${classes}`">
     <label :for="inputId" class="text-blue font-medium text-sm">{{ label }}</label>
     <input
       :id="inputId"
@@ -17,7 +17,8 @@ export default {
     value: { type: [String, Number], required: false, default: undefined },
     id: { type: String, required: false, default: undefined },
     label: { type: String, required: true },
-    inputClass: { type: String, required: true }
+    inputClass: { type: String, required: true },
+    class: { type: String, required: false }
   },
   computed: {
     inputId () {
@@ -30,6 +31,9 @@ export default {
       set (value) {
         this.$emit("input", value)
       }
+    },
+    classes () {
+      return this.class
     }
   }
 }
