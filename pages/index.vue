@@ -24,9 +24,9 @@
           </div>
           <div class="bg-white py-6 pb-12 px-24 shadow-xl flex justify-between items-end">
             <div class="flex gap-3 items-end text-medium">
-              <TInput type="text" label="Check In Date" placeholder="check in date" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark" class="w-1/3"/>
-              <TInput type="text" label="Check Out Date" placeholder="check out date" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark"  class="w-1/3" />
-              <TInput type="text" label="Rooms" placeholder="rooms" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark"  class="w-1/3" />
+              <TInput type="text" label="Check In Date" placeholder="check in date" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark" class="flex-grow-1"/>
+              <TInput type="text" label="Check Out Date" placeholder="check out date" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark"  class="flex-grow-1" />
+              <TInput type="text" label="Rooms" placeholder="rooms" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark"  class="flex-grow-1" />
               <button class="bg-blue h-12 w-12 mb-4 flex-shrink-0">
                 <img src="https://ik.imagekit.io/hooli/telios/send_1v6H9jZIyghJ.svg" class="d-block mx-auto">
               </button>
