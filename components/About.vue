@@ -18,7 +18,7 @@
       </p>
       <button class="bg-blue mb-4 mt-8 flex py-3 px-10 text-white ">
         read more
-        <img src="https://ik.imagekit.io/hooli/telios/arrow-right-white_20BPr8tUO2.svg" class="pt-1 pl-3 h-5">
+        <img alt="img" src="https://ik.imagekit.io/hooli/telios/arrow-right-white_20BPr8tUO2.svg" class="pt-1 pl-3 h-5">
       </button>
     </div>
     <div class="w-1/2">

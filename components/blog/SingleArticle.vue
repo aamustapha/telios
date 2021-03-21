@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-light">
-    <img :src="pic" :alt="pic" class="h-64 w-full object-cover">
+    <img alt="img" :src="pic" :alt="pic" class="h-64 w-full object-cover">
     <div class="px-10 py-6 text-center">
       <span class="text-blue font-bold uppercase">{{ category }}</span>
       <p class="font-bold text-verylarge">

@@ -12,7 +12,7 @@
           exact-active-class="text-blue"
         >
           {{ nav.text }}
-          <img v-if="nav.children" src="images/chevron-down.svg" class="flex w-3 ml-1 h-2 align-middle inline-flex">
+          <img alt="img" v-if="nav.children" src="images/chevron-down.svg" class="flex w-3 ml-1 h-2 align-middle inline-flex">
         </router-link>
       </template>
     </nav>

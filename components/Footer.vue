@@ -11,13 +11,13 @@
         </p>
         <div class="flex space-x-2 mt-4">
           <a href="#">
-            <img src="images/001-facebook.svg" class="h-8 w-8">
+            <img alt="img" src="images/001-facebook.svg" class="h-8 w-8">
           </a>
           <a href="#">
-            <img src="images/002-twitter.svg" class="h-8 w-8">
+            <img alt="img" src="images/002-twitter.svg" class="h-8 w-8">
           </a>
           <a href="#">
-            <img src="images/004-google-plus.svg" class="h-8 w-8">
+            <img alt="img" src="images/004-google-plus.svg" class="h-8 w-8">
           </a>
         </div>
       </div>
@@ -44,9 +44,9 @@
           Contact info
         </h4>
         <ul class="space-y-3">
-          <li><img src="images/mail.svg" class="inline mr-2"> example@yahoo.com</li>
-          <li><img src="images/phone.svg" class="inline mr-2"> +0 320 422 4254</li>
-          <li><img src="images/map-pin.svg" class="inline mr-2"> Main Str Chicago Ilinois</li>
+          <li><img alt="img" src="images/mail.svg" class="inline mr-2"> example@yahoo.com</li>
+          <li><img alt="img" src="images/phone.svg" class="inline mr-2"> +0 320 422 4254</li>
+          <li><img alt="img" src="images/map-pin.svg" class="inline mr-2"> Main Str Chicago Ilinois</li>
         </ul>
       </div>
     </div>

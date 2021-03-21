@@ -2,7 +2,7 @@
   <div>
     <div class="flex mb-1 items-center">
       <div>
-        <img :src="pic" class="rounded-full" style="width: 54px; height: 54px;">
+        <img alt="img" :src="pic" class="rounded-full" style="width: 54px; height: 54px;">
       </div>
       <div class="pl-5">
         <h4 class="font-semibold text-verylarge">

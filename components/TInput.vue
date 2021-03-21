@@ -14,7 +14,7 @@
 export default {
   name: "TInput",
   props: {
-    value: { type: [String, Number], required: true },
+    value: { type: [String, Number], required: false, default: undefined },
     id: { type: String, required: false, default: undefined },
     label: { type: String, required: true },
     inputClass: { type: String, required: true }

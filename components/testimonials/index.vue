@@ -19,10 +19,10 @@
       style="background-image: url('images/rhema-kallianpur-jbJ-_hw2yag-unsplash-2@2x.png')"
     >
       <button class="absolute bottom-0 left-0">
-        <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="p-6 bg-white" @click="++testimony">
+        <img alt="img" src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="p-6 bg-white" @click="++testimony">
       </button>
       <button class="absolute bottom-0" style="left: -58px" @click="--testimony">
-        <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="transform rotate-180 p-6 bg-blue">
+        <img alt="img" src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="transform rotate-180 p-6 bg-blue">
       </button>
     </div>
   </div>

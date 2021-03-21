@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white py-8 px-4 text-center ">
     <div class="w-16 h-16 p-3 rounded-full bg-blue mx-auto mb-3 block">
-      <img src="https://ik.imagekit.io/hooli/telios/hotel_srtzCUnOr6.svg" class="d-block mx-auto">
+      <img alt="img" src="https://ik.imagekit.io/hooli/telios/hotel_srtzCUnOr6.svg" class="d-block mx-auto">
     </div>
     <p class="font-bold mb-4 text-verylarge whitespace-pre-line">
       {{ title }}

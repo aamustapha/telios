@@ -1,6 +1,6 @@
 <template>
   <div class="flex bg-gray-light">
-    <img :src="pic" class="h-full w-1/4 object-cover flex-shrink-0">
+    <img alt="img" :src="pic" class="h-full w-1/4 object-cover flex-shrink-0">
     <div class="py-10 pl-4 pr-16">
       <span class="text-blue uppercase font-semibold">{{ category }}</span>
       <p class="font-bold">
@@ -9,7 +9,7 @@
       <small class="py-2 text-gray-dark "> {{ description }}</small>
     </div>
     <a href="#" class="w-12 h-full bg-blue flex  flex-shrink-0 content-center ">
-      <img src="images/arrow-right (1)-10.svg" class=" mx-auto ">
+      <img alt="img" src="images/arrow-right (1)-10.svg" class=" mx-auto ">
     </a>
   </div>
 </template>
