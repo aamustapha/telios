@@ -33,7 +33,7 @@ export default {
           testimony: "I'm very glad I had the opportunity to visit this hotel. The stuff is very friendly and I will definetly visit the hotel again next year."
         },
         {
-          name: "Usman Doe",
+          name: "John Doe",
           role: "IT Engineer",
           pic: "images/marius-ciocirlan-vMV6r4VRhJ8-unsplash.png",
           testimony: "I'm very glad I had the opportunity to visit this hotel. The stuff is very friendly and I will definetly visit the hotel again next year."

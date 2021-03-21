@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-light relative flex">
-    <div class="container mx-auto pr-24">
+    <div class="container container-fluid mx-auto pr-24">
       <div>
         <div class="max-w-lg py-24">
           <h5 class="text-blue uppercase font-bold">
@@ -36,7 +36,7 @@ export default {
   components: { Testimonies },
   data () {
     return {
-      testimony: 0
+      testimony: 1
     }
   }
 }

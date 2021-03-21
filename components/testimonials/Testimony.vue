@@ -8,10 +8,10 @@
         <h4 class="font-bold text-md">
           {{ name }}
         </h4>
-        <small class="text-gray-dark">{{ role }}</small>
+        <small class="text-black opacity-50">{{ role }}</small>
       </div>
     </div>
-    <div class="mt-4">
+    <div class="mt-4 max-w-sm">
       <p>{{ testimony }}</p>
     </div>
   </div>
