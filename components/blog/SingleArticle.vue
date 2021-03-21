@@ -1,12 +1,14 @@
 <template>
   <div class="bg-gray-light">
-    <img :src="pic" class="h-64 w-full object-cover">
-    <div class="px-12 py-6 text-center">
-      <span class="text-blue font-bold text-sm uppercase">{{ category }}</span>
-      <p class="font-bold">
+    <img :src="pic" :alt="pic" class="h-64 w-full object-cover">
+    <div class="px-10 py-6 text-center">
+      <span class="text-blue font-bold uppercase">{{ category }}</span>
+      <p class="font-bold text-verylarge">
         {{ title }}
       </p>
-      <small class="py-2 text-gray-dark "> {{ summary }}</small>
+      <p class="py-2 text-gray-dark px-2 ">
+        {{ summary }}
+      </p>
     </div>
   </div>
 </template>

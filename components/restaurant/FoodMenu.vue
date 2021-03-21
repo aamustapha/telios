@@ -1,14 +1,20 @@
 <template>
   <div class="flex bg-gray-light relative">
-    <img :src="pic" class="h-full w-1/4 object-cover">
-    <div class="py-10 pl-4 pr-16">
+    <img :src="pic" class="h-full w-1/4 object-cover" :alt="name">
+    <div class="py-8 pl-4 pr-16">
       <span class="text-blue uppercase font-semibold">{{ category }}</span>
-      <p class="font-bold">
+      <p class="font-bold text-large">
         {{ name }}
       </p>
-      <small class="py-2 text-gray-dark "> {{ description }}</small>
+      <p class="py-2 text-base text-gray-dark lg:w-3/4">
+        {{ description }}
+      </p>
       <a href="#" class="absolute bottom-0 right-0">
-        <img src="images/arrow-right (1)-10.svg" class="px-5 py-4 bg-blue">
+        <img
+          src="https://ik.imagekit.io/hooli/telios/arrow-right-white_20BPr8tUO2.svg"
+          alt="learn more"
+          class="p-6 bg-blue"
+        >
       </a>
     </div>
   </div>

@@ -8,7 +8,7 @@
           <TInput type="text" label="Rooms" placeholder="rooms" input-class="bg-white border-gray" />
           <button class="bg-blue mb-3 text-white h-12">
             Submit
-            <img src="images/send.svg" class="ml-2 inline-block">
+            <img src="https://ik.imagekit.io/hooli/telios/send_1v6H9jZIyghJ.svg" alt="send" class="ml-2 inline-block">
           </button>
         </div>
       </div>

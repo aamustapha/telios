@@ -13,7 +13,7 @@
       </p>
       <p class="font-light leading-relaxed mt-3 text-normal">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.<br/>
+        magna aliqua.<br>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
       <button class="bg-blue mb-4 mt-8 flex py-3 px-10 text-white ">

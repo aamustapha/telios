@@ -18,6 +18,7 @@ module.exports = {
       base: "14px",
       large: "16px",
       verylarge: "18px",
+      "24px": "24px",
       big: "42px",
       verybig: "62px"
     },
