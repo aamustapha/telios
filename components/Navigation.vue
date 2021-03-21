@@ -1,6 +1,6 @@
 <template>
-  <div class="mb-24 flex justify-between">
-    <h4 class="font-extrabold">
+  <div class="mb-24 flex justify-between relative">
+    <h4 class="text-lg font-extrabold">
       Zetta Hotels
     </h4>
     <nav class="font-sm">
@@ -8,7 +8,7 @@
         <router-link
           :key="index"
           :to="nav.link"
-          class="mx-3 uppercase font-semibold "
+          class="mx-3 uppercase  "
           exact-active-class="text-blue"
         >
           {{ nav.text }}
