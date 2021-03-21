@@ -1,6 +1,6 @@
 <template>
   <div class="my-3">
-    <label :for="inputId" class="text-blue">{{ label }}</label>
+    <label :for="inputId" class="text-blue font-medium text-sm">{{ label }}</label>
     <input
       :id="inputId"
       v-model="val"
