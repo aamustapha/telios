@@ -1,12 +1,10 @@
 <template>
-  <div class="bg-white py-6 px-6 text-center ">
-    <span class="w-16 h-16 p-3 rounded-full bg-blue mx-auto mb-3 block">
-      <img src="images/001-hotel-1.svg" class="d-block mx-auto">
-    </span>
-    <h5 class="font-bold mb-2 text-xl">
-      {{ title }}
-    </h5>
-    <small>{{ description }}</small>
+  <div class="bg-white py-6 px-6 text-center xl:py-10">
+    <div class="w-16 h-16 p-3 rounded-full bg-blue mx-auto mb-3 block">
+      <img src="https://ik.imagekit.io/hooli/telios/hotel_srtzCUnOr6.svg" class="d-block mx-auto">
+    </div>
+    <p class="font-bold mb-2 text-base whitespace-pre-line xl:text-lg">{{ title }}</p>
+    <small class="text-gray-dark text-sm px-2 max-3-lines" >{{ description }}</small>
   </div>
 </template>
 
@@ -21,5 +19,10 @@ export default {
 </script>
 
 <style scoped>
-
+.max-3-lines{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 </style>
