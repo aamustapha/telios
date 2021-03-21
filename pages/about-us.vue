@@ -3,7 +3,7 @@
     <Banner class="mb-12">
       <div class=" pb-16 relative">
         <div class="max-w-screen-sm">
-          <h2 class="text-verybig font-extrabold pr-3 ">
+          <h2 class="page-title">
             About Us
           </h2>
           <p>Home | About Us</p>

@@ -3,7 +3,7 @@
     <Banner>
       <div class=" pb-16 relative">
         <div class="max-w-screen-sm">
-          <h2 class="text-verybig font-extrabold pr-3 ">
+          <h2 class="page-title">
             Rooms
           </h2>
           <p>Home | Rooms</p>
