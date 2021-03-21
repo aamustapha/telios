@@ -1,14 +1,14 @@
 <template>
   <div class="mb-24 flex justify-between relative">
-    <h4 class="text-lg font-extrabold">
+    <h4 class="font-semibold text-base">
       Zetta Hotels
     </h4>
-    <nav class="font-sm">
+    <nav class="text-small flex gap-12">
       <template v-for="(nav, index) in navs">
         <router-link
           :key="index"
           :to="nav.link"
-          class="mx-3 uppercase  "
+          class="uppercase"
           exact-active-class="text-blue"
         >
           {{ nav.text }}

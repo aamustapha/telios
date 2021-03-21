@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="flex mb-1">
+    <div class="flex mb-1 items-center">
       <div>
-        <img :src="pic" class="w-12 h-12 rounded-full">
+        <img :src="pic" class="rounded-full" style="width: 54px; height: 54px;">
       </div>
       <div class="pl-5">
-        <h4 class="font-bold text-md">
+        <h4 class="font-semibold text-verylarge">
           {{ name }}
         </h4>
-        <small class="text-black opacity-50">{{ role }}</small>
+        <small class="font-semibold test-small opacity-50">{{ role }}</small>
       </div>
     </div>
     <div class="mt-4 max-w-sm">

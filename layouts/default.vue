@@ -18,10 +18,12 @@ export default {
 <style>
 * {
   font-family: 'Poppins', sans-serif;
+  font-size: 14px;
 }
 
 .container-fluid {
-  @apply px-2 mx-auto
+  @apply px-2 mx-auto;
+  max-width: 1140px;
 }
 
 @screen lg {

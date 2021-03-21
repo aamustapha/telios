@@ -11,6 +11,19 @@ module.exports = {
         semidark: "#CECECE",
         dark: "#B1B1B1"
       }
+    },
+    fontSize: {
+      small: "12px",
+      medium: "13px",
+      base: "14px",
+      large: "16px",
+      verylarge: "18px",
+      big: "42px",
+      verybig: "62px"
+    },
+    lineHeight: {
+      tight: "56px",
+      loose: "73px"
     }
   }
 }

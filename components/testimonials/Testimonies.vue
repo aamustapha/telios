@@ -3,7 +3,7 @@
     <template v-for="(testimony, index) in testimonies">
       <Testimony v-if="index === Math.abs(value % testimonies.length)" v-bind="testimony" :key="index" />
     </template>
-    <ul class="flex mt-8 space-x-1">
+    <ul class="flex mt-4 space-x-1">
       <template v-for="(testimony, index) in testimonies">
         <li
           :key="index"

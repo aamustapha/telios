@@ -2,18 +2,18 @@
   <div>
     <Banner>
       <div class="pb-48 relative">
-        <div class="  ">
-          <h2 class="text-6xl font-extrabold ">
+        <div class="pt-4">
+          <h2 class="text-verybig font-black leading-loose mb-6 pt-16 ">
             The best hotel <br/> you will ever need
           </h2>
-          <p>
+          <p class="text-base">
             Lorem ipsum dolor sit amet, consectetur <br/>
             adipiscing elit, sed do eiusmod tempor incididunt <br/>
             ut labore et dolore magna aliqua. Ut enim ad
           </p>
         </div>
 
-        <div class="py-8 absolute px-1 container mt-12 text-black">
+        <div class="py-8 absolute px-1 container mt-16 text-black">
           <div class="flex justify-end">
             <button>
               <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="px-4 py-4 transform rotate-180 bg-white">
@@ -22,8 +22,8 @@
               <img src="https://ik.imagekit.io/hooli/telios/arrow-right_-QqySiOJBG.svg" class="px-4 py-4 bg-blue">
             </button>
           </div>
-          <div class="bg-white py-8 px-24 shadow-xl flex justify-between items-end">
-            <div class="flex gap-3 items-end">
+          <div class="bg-white py-6 pb-12 px-24 shadow-xl flex justify-between items-end">
+            <div class="flex gap-3 items-end text-medium">
               <TInput type="text" label="Check In Date" placeholder="check in date" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark" />
               <TInput type="text" label="Check Out Date" placeholder="check out date" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark" />
               <TInput type="text" label="Rooms" placeholder="rooms" input-class="bg-gray-semilight border-gray-semilight text-gray-semidark" />

@@ -1,9 +1,9 @@
 <template>
-  <div class="container mx-auto py-24">
+  <div class="container container-fluid mx-auto py-24">
     <h5 class="text-blue uppercase font-bold">
       restaurant
     </h5>
-    <h2 class="font-black text-4xl mt-2 mb-4 max-w-lg">
+    <h2 class="font-extrabold text-big mt-2 mb-4 max-w-xl">
       Explore our menu and eat what you want
     </h2>
     <div class="grid grid-cols-2 gap-4">
