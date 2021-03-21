@@ -7,11 +7,11 @@
       <h2 class="subheading">
         Trust and quality are our atuus
       </h2>
-      <p class="font-medium mt-3 leading-relaxed text-large">
+      <p class="font-semibold mt-3 leading-relaxed text-large">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis
       </p>
-      <p class="font-light leading-relaxed mt-3 text-normal">
+      <p class="leading-relaxed mt-3 text-normal">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.<br>
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
